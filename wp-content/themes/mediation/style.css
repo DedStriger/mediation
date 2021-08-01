@@ -1,0 +1,631 @@
+/*Theme name: mediation*/
+
+
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body, html{
+	background: #A4A8CD;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	margin: 0 !important;
+}
+
+.container{
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+header{
+	margin-top: 15px;
+	margin-bottom: 66px;
+}
+
+header .container, footer .container{
+	display: flex;
+	align-items: center;
+}
+
+.adress{
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	max-width: 1170px;
+	text-align: right;
+	margin-top: 20px;
+	margin: 0 auto;
+}
+
+
+.logo{
+	height: auto;
+	max-width: 324px;
+	width: 100%;
+	margin-left: -26px;
+}
+
+nav{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.language{
+	margin-left: auto;
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+	cursor: pointer;
+}
+
+.language .active{
+	font-weight: 400;
+}
+
+.language span{
+	transition: .3s all;
+}
+
+.language span:hover{
+	font-weight: 400;
+}
+
+.menu{
+	display: flex;
+	align-items: center;
+	list-style: none;
+		margin-left: auto;
+}
+
+.menu li:not(:last-child){
+ margin-right: 40px;
+}
+
+.menu a{
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+}
+
+.menu li{
+	transition: .3s all;
+	box-sizing: border-box;
+	border-bottom: 3px solid transparent;
+}
+
+.menu li:hover{
+	border-bottom: 3px solid #000;
+}
+
+.main-header{
+	text-align: center;
+	font-size: 23px;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+.top-section h2{
+	margin-bottom: 40px;
+}
+
+.main-text, section p{
+	font-family: 'Hind Siliguri', sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+.main-img img{
+	margin-top: 80px;
+	max-width: 1170px !important;
+	height: auto !important;
+	width: 100% !important;
+}
+
+section, .laywers{
+	margin-bottom: 80px;
+}
+
+.top-section p{
+	max-width: 725px;
+	margin: 0 auto;
+}
+
+.list h2{
+	max-width: 659px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+.list-row{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.list-row p{
+	max-width: 300px;
+}
+
+.cyber{
+	display: flex;
+	align-items: center;
+}
+
+.cyber-img{
+	max-width: 670px;
+	width: 100%;
+	height: auto;
+}
+
+.cyber h2{
+	text-align: left;
+	max-width: 470px;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+
+.cyber p{
+	text-align: left;
+}
+
+.baner{
+	width: 100%;
+	height: 365px;
+	background: url('img/baner.png') no-repeat center / cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 80px;
+}
+
+.baner-text{
+	max-width: 964px;
+	width: 100%;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: center;
+	color: #fff;
+	font-family: 'Montserrat Alternates', sans-serif;
+	text-transform: uppercase;
+}
+
+.types h2{
+	margin: 0 auto;
+	margin-bottom: 80px;
+	max-width: 770px;
+}
+
+.grid-types{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 30px;
+}
+
+.grid-types p{
+	padding: 15px 0;
+	border: 1px solid #000;
+}
+
+.laywer{
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.laywer-img img{
+	height: auto !important;
+	max-width: 370px !important;
+	margin-right: 30px;
+}
+
+.laywers-subtitle{
+	font-size: 18px;
+	font-weight: 400;
+	font-style: italic;
+	font-family: 'Montserrat Alternates', sans-serif;
+	text-align: center;
+}
+
+
+.reviews h2{
+	margin-bottom: 80px;
+}
+
+.review-cont{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.review-img img{
+	height: auto;
+	width: 100%;
+	max-width: 370px;
+}
+
+.review-card{
+	max-width: 370px;
+	width: 100%;
+}
+
+
+.review-card:not(:last-child){
+	margin-right: 30px;
+}
+
+.review-name{
+	margin: 15px 0;
+	font-weight: 500;
+	font-size: 18px;
+	font-family: 'Oswald', sans-serif;
+	text-align: left;
+}
+
+.review-text{
+	font-family: 'Hind Siliguri', sans-serif;
+	font-size: 14px;
+	text-align: left;
+}
+
+footer{
+	margin-bottom: 126px;
+}
+
+.burger{
+	display: none;
+}
+
+
+.bogoflags, .bogoflags-before:before{
+	display: none !important;
+}
+
+
+.laywer-price{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+}
+
+form{
+	margin-top: 80px;
+}
+
+.form > *{
+	display: block;
+	width: 100%;
+}
+
+.form-input{
+	width: calc(100% - 40px);
+	outline: none;
+	border: 1px solid black;
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	margin-bottom: 30px;
+	background: none;
+	padding: 20px;
+}
+
+.form-input::placeholder{
+	color: rgba(0,0,0, .6);
+}
+
+.form-btn{
+	background: none;
+	width: 30%;
+	margin: 0 auto;
+	outline: none;
+	border: 1px solid black;
+		font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 15px 0;
+	transition: .3s all;
+}
+
+.wpcf7-response-output{
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	border-size: 1px !important;
+}
+
+.form-btn:hover{
+	color: #fff;
+	background: #0DA6FC;
+	border-color: #0DA6FC;
+}
+
+@media(max-width: 1170px){
+	.container{
+		max-width: calc(100% - 30px);
+		padding: 0 15px;
+	}
+	
+	.adress{
+	    max-width: 100%;
+	    margin-right: 15px;
+	    margin-left: 15px;
+	}
+
+	.baner, .main-img img{
+		width: 100vw;
+		margin-right: -15px;
+		margin-left: -15px;
+	}
+
+	.cyber-img{
+		margin-right: -15px;
+	}
+
+	.cyber p{
+		margin-right: 10px;
+	}
+
+	.grid-types p {
+		padding: 15px;
+	}
+}
+
+
+@media (max-width: 1060px){
+	.cyber{
+		flex-direction: column-reverse;
+	}
+
+	.cyber-img{
+		max-width: 100vw;
+		width: 100vw;
+		margin-right: 0;
+		margin-bottom: 15px;
+		margin-bottom: 80px;
+	}
+
+	.cyber h2, .cyber p{
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
+		max-width: none;
+	}
+}
+
+@media(max-width: 910px){
+	footer .container, footer nav{
+		flex-direction: column;
+	}
+
+	footer .menu, footer .language{
+		margin-left: 0;
+	}
+	
+	.adress{
+	    text-align: center;
+	    margin-top: 40px;
+	}
+
+	footer .menu{
+		margin-bottom: 30px;
+	}
+
+	.baner-text{
+		padding: 0 15px;
+	}
+
+	header nav, header .menu{
+		flex-direction: column;
+	}
+
+	header{
+		position: relative;
+	}
+
+	header nav{
+		position: absolute;
+		top: 122px;
+		background: #A4A8CD;
+		transition: .6s all;
+		padding: 20px 0px;
+		right: -100%;
+	}
+
+	.form-btn{
+		margin: 0;
+		width: 100%;
+	}
+
+	header nav.mobile{
+		right: 0;
+	}
+
+	header .menu, header .language{
+		margin-left: 0;
+	}
+
+	header .menu li:not(:last-child){
+		margin-right: 0;
+	}
+
+	.burger{
+		display: block;
+	}
+
+	.burger{
+		width: 40px;
+		height: 2px;
+		background: #000;
+		margin-left: auto;
+		position: relative;
+		transition: .3s all;
+	}
+
+	.burger::after{
+		content: '';
+		display: block;
+		width: 40px;
+		height: 2px;
+		background: #000;
+		position: absolute;
+		top: -10px;
+		transition: .3s all;
+	}
+
+	.burger::before{
+		content: '';
+		display: block;
+		width: 40px;
+		height: 2px;
+		background: #000;
+		position: absolute;
+		top: -20px;
+		transition: .3s all;
+	}
+
+.burger.active {
+			background-color: transparent;
+		}
+
+		.burger.active::after {
+					transform-origin: left center;
+					transform: rotate(-45deg);
+		}
+
+		.burger.active::before {
+			transform-origin: left center;
+			transform: rotate(45deg);
+			top: -38px;
+		}
+
+}
+
+@media screen and (max-width: 782px){
+	
+	html{
+			margin-top: 0 !important;
+	}
+}
+
+@media(max-width: 769px){
+	.laywer{
+		display: block;
+	}
+
+
+	 .laywer-img img{
+		margin-bottom: 40px;
+		width: 100vw !important;
+		max-width: 100vw !important;
+		margin-right: -15px;
+		margin-left: -15px;
+	}
+
+	header{
+		
+		margin-bottom: 35px;
+	}
+
+	header nav{
+		top: 80px;
+	}
+}
+
+@media(max-width: 600px){
+	.grid-types{
+		grid-template-columns: 1fr;
+	}
+
+	.review-cont{
+		display: block;
+	}
+
+	.review-card:not(:last-child){
+		margin-right: 0;
+		margin-bottom: 30px;
+	}
+
+	.review-card, .review-img img{
+		max-width: 100%;
+	}
+
+ .baner{
+ 	height: 325px;
+ }
+	.baner-text{
+		font-size: 15px;
+	}
+
+	.list-row{
+		display: block;
+	}
+
+	.list-row p{
+		margin: 0 auto;
+		margin-bottom: 15px;
+		max-width: 80vw;
+	}
+}
+
+@media(max-width: 540px){
+	footer .menu{
+		flex-direction: column;
+	}
+
+	footer .menu li:not(:last-child){
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+}
+
+@media(max-width: 500px){
+	section, .cyber-img, .baner, .laywers, .reviews h2, .types h2{
+		margin-bottom: 40px;
+	}
+
+	.main-img img, form{
+		margin-top: 40px;
+	}
+
+	h2.main-header, p.main-text, .baner-text, .laywers-subtitle{
+		text-align: left;
+	}
+
+		h2.main-header{
+			font-size: 20px;
+		}
+
+		p.main-text{
+			font-size: 16px;
+		}
+
+	.list-row p{
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.logo{
+		max-width: 200px;
+	}
+
+	.burger{
+		margin-top: 20px;
+	}
+
+	footer{
+		margin-bottom: 86px;
+	}
+}
+
+@media(max-width: 455px){
+	.baner{
+		height: auto;
+		padding: 15px 0;
+	}
+}
